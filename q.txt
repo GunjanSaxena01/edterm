@@ -1,0 +1,6 @@
+A company implements a CI/CD pipeline where developer push code to git, jenkins builds a 
+docker image, pushes it to docker hub, and deployes it to a swarm cluster. however, 
+during peak development cycles, pipeline execution becomes slow and deployments overlap,
+causing unstable releases. Analyze bottlenecks in jenkins archietecture, docker build 
+concurrency, and registry limitations.Propose a scalable and optimised enterprise-grade 
+CI/CD architecture.
